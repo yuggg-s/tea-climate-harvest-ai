@@ -1,0 +1,26 @@
+# 模型权重文件
+models/*.pt
+*.pt
+
+# 视频
+*.mp4
+*.mov
+*.avi
+*.mkv
+video/
+
+# PPT、Word、PDF等文档
+*.pptx
+*.ppt
+*.pdf
+*.docx
+*.doc
+
+# python缓存
+__pycache__/
+*.pyc
+*.log
+.env
+
+# gradio缓存
+.gradio/
