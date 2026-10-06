@@ -44,7 +44,7 @@ python app.py
 >说明：本 Demo 使用 120°C·d 作为演示阈值，实际阈值可通过参数配置
 
 ## 数据集与模型说明
-- 图像数据集：Roboflow Universe公开数据集 teaRob（1733 张茶园实景图像，单类别`tea_bud`：一芽一叶，YOLO格式标注，CC BY 4.0开源许可）。数据按约7:3划分为训练集（1205张）与验证集（491张）。
+- 图像数据集：Roboflow Universe公开数据集 teaRob（约1700张茶园实景图像，单类别`tea_bud`：一芽一叶，YOLO格式标注，CC BY 4.0开源许可）。数据按约7:3划分为训练集（1205张）与验证集（491张）。
 - 模型：YOLOv8，训练后权重文件放在`models/best.pt`；
 - 气象数据：杭州历史气象观测数据。
 
@@ -56,8 +56,7 @@ tea-climate-harvest/
 ├── models/ # YOLO 模型权重存放目录
 ├── utils/ # 工具模块（积温计算 weather.py）
 ├── datasets/ # YOLO 配置
-├── data/ # 存放示例气象 CSV、测试图片
-└── demo_material/ # 参赛材料链接
+└── demo_material/ # 存放示例气象 CSV、测试图片、参赛材料链接
 
 ```
 ## 验证计划
