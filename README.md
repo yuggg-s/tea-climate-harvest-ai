@@ -55,10 +55,11 @@ tea-climate-harvest/
 ├── train.py # YOLO 模型训练脚本
 ├── models/ # YOLO 模型权重存放目录
 ├── utils/ # 工具模块（积温计算 weather.py）
-├── datasets/ # YOLO 训练数据集与配置
+├── datasets/ # YOLO 配置
 ├── data/ # 存放示例气象 CSV、测试图片
-└── demo_material/ # 参赛材料链接```
+└── demo_material/ # 参赛材料链接
 
+```
 ## 验证计划
 当前已完成可运行原型 Demo。后续将在梅家坞茶园实地采集图像、完善标注数据集，微调 YOLO 模型；结合当地长期气象数据，在小范围茶园开展试点测试，收集茶农反馈持续迭代，落地真实场景验证。
 
