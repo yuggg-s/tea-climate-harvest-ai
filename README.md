@@ -64,8 +64,7 @@ tea-climate-harvest/
 
 
 ## 数据来源
-1. 杭州历史气温数据：https://www.tianqi24.com/hangzhou/history.html
-2. 图像训练数据集：Roboflow Universe teaRob 公开数据集（CC BY 4.0许可）
+1. 图像训练数据集：Roboflow Universe teaRob 公开数据集（CC BY 4.0许可）
 
 ## 项目团队
 傅钰恬，胡晴雯，谢青蓝
